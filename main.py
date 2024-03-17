@@ -19,7 +19,7 @@ def resume():
         if files:
 
             a = {'analytics': "The provided resume lacks relevant experience and skills for the Java Developer role. To improve the resume, it should highlight Java-related projecthe resume's matching potential.",
-                'score': "30%",
+                'score': "40%",
                 'jobs': [{'name': "Avarri",'stipend':"₹ 5,000-7,000 /month",'link':"https://internshala.com/internship/detail/nodejs-development-internship-in-mumbai-at-nextgen-techno-ventures-private-limited1709554501"},
                         {'name': "Yarri",'stipend':"₹ 50,000-70,000 /month",'link':"https://internshala.com/internship/detail/nodejs-development-internship-in-mumbai-at-nextgen-techno-ventures-private-limited1709554501"},
                         {'name': "Gwarri",'stipend':"₹ 500-700 /month",'link':"https://internshala.com/internship/detail/nodejs-development-internship-in-mumbai-at-nextgen-techno-ventures-private-limited1709554501"},
