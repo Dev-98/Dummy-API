@@ -14,9 +14,12 @@ def resume():
 
     try :
 
-        files = request.files['resume']
+        if request.method == 'POST':
+            # files = request.files['resume']
+            test = request.form.get('first')
+            
 
-        if files:
+        # if files:
 
             a = {'analytics': "The provided resume lacks relevant experience and skills for the Java Developer role. To improve the resume, it should highlight Java-related projecthe resume's matching potential.",
                 'score': "40%",
