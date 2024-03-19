@@ -12,7 +12,6 @@ COPY . ./
 
 # Install production dependencies.
 RUN pip install -r requirements.txt
-RUN pip install gunicorn
 
 
 # Run the web service on container startup. Here we use the gunicorn
